@@ -145,7 +145,7 @@ namespace Network_Tool
                 {
                     if (dnsAdress != "None")
                     {
-                        Console.WriteLine("Ping Address: " + dnsAdress + "[" + reply.Address + "]" + "\nStatus :  " + reply.Status + "\nPing Time : " + reply.RoundtripTime.ToString() + "ms");
+                        Console.WriteLine("Ping Address: " + dnsAdress + " [" + reply.Address + "]" + "\nStatus :  " + reply.Status + "\nPing Time : " + reply.RoundtripTime.ToString() + "ms");
                     }
                     else
                     {
